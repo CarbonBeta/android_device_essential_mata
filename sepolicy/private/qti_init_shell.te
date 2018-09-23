@@ -1,0 +1,4 @@
+allow qti_init_shell exported3_default_prop:property_service set;
+allow qti_init_shell exported_default_prop:property_service set;
+allow qti_init_shell self:capability dac_override;
+

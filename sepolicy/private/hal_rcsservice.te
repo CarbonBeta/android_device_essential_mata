@@ -1,0 +1,2 @@
+allow hal_rcsservice hal_imsrcsd_hwservice:hwservice_manager add;
+

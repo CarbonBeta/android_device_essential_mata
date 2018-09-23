@@ -1,0 +1,6 @@
+allow vendor_init proc_kernel:file write;
+allow vendor_init self:capability sys_module;
+allow vendor_init self:capability2 mac_admin;
+allow vendor_init tombstone_data_file:dir { open read setattr };
+allow vendor_init unlabeled:chr_file { open write };
+

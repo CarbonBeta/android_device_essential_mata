@@ -1,5 +1,8 @@
 -include build/make/target/board/generic_arm64/BoardConfig.mk
 
+# SELinux
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
 # vendor
 PRODUCT_RESTRICT_VENDOR_FILES := false
 

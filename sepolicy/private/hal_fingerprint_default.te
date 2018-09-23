@@ -1,0 +1,2 @@
+allow hal_fingerprint_default default_android_service:service_manager add;
+

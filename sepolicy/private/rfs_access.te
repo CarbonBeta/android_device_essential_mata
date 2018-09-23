@@ -1,0 +1,2 @@
+allow rfs_access self:capability dac_override;
+

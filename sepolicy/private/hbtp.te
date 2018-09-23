@@ -1,0 +1,2 @@
+allow hbtp sysfs_switch:dir search;
+
